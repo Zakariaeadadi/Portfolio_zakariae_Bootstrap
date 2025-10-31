@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - ADADI ZAKARIAE</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/Css/bootstrap.min.css">
+
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/Css/style.css">
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand fst-italic" href="#">ADADI ZAKARIAE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title">Portfolio</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#hero_section">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="hero_section" class="container text-center">
+    <img src="assets/imges/photo_profile.jpg" alt="Photo de profil">
+    <h1 class="mt-3 text-light">Salut, je suis <span class="text-accent">Zakariae</span></h1>
+    <p class="lead">Développeur web passionné | Étudiant en génie informatique</p>
+    <div class="mt-4">
+      <a href="#projets" class="btn btn-outline-accent">Voir mes projets</a>
+    </div>
+  </section>
+
+  <!-- ===== Compétences ===== -->
+  <section id="competences" class="container mt-5">
+    <h4 class="text-center mb-4">Mes compétences</h4>
+    <div class="row g-4 justify-content-center text-center">
+  
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card p-3 bg-dark text-light border-0 shadow-sm">
+          <i class="fab fa-html5 fa-2x text-warning mb-2"></i>
+          <h6>HTML</h6>
+        </div>
+      </div>
+  
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card p-3 bg-dark text-light border-0 shadow-sm">
+          <i class="fab fa-css3-alt fa-2x text-primary mb-2"></i>
+          <h6>CSS</h6>
+        </div>
+      </div>
+  
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card p-3 bg-dark text-light border-0 shadow-sm">
+          <i class="fab fa-js-square fa-2x text-warning mb-2"></i>
+          <h6>JavaScript</h6>
+        </div>
+      </div>
+  
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card p-3 bg-dark text-light border-0 shadow-sm">
+          <i class="fab fa-bootstrap fa-2x text-info mb-2"></i>
+          <h6>Bootstrap</h6>
+        </div>
+      </div>
+  
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card p-3 bg-dark text-light border-0 shadow-sm">
+          <i class="fas fa-code fa-2x text-success mb-2"></i>
+          <h6>C / C++</h6>
+        </div>
+      </div>
+  
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card p-3 bg-dark text-light border-0 shadow-sm">
+          <i class="fab fa-python fa-2x text-warning mb-2"></i>
+          <h6>Python</h6>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+  <!-- ===== Projets ===== -->
+  <section id="projets" class="container text-center">
+    <h2 class="section-title">Mes Projets</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">Calculateur d'âge</h5>
+            <p class="card-text">Une petite application qui permet de calculer votre âge à partir de votre date de naissance.</p>
+            <button class="btn btn-outline-primary"><a href="#">Voir le projet</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card project-card">
+
+          <div class="card-body">
+            <h5 class="card-title">To-Do List</h5>
+            <p class="card-text">Une petite application intégrée qui me permet de gérer mes tâches quotidiennes, ajouter, compléter ou supprimer des tâches facilement</p>
+            <button class="btn btn-outline-primary"><a href="#">Voir le projet</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">Formulaire interactif</h5>
+            <p class="card-text">Un formulaire où vous saisissez vos informations, et en cliquant sur un bouton, un résumé personnalisé apparaît.</p>
+            <button class="btn btn-outline-primary"><a href="#">Voir le projet</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="container text-center">
+    <h2 class="section-title">Contact</h2>
+    <p class="text-light">Tu peux me contacter sur :</p>
+    <div class="social-links">
+      <a href="mailto:zakariaeadadi01@gmail.com" target="_blank"><img src="./assets/imges/logo_email.png" alt="Logo_Email"></a>
+      <a href="https://www.linkedin.com/in/zakariae-adadi-44338132a" target="_blank"><img src="./assets/imges/logo_linkdeIn.jpg" alt="Logo_LinkdeIn"></a>
+      <a href="https://github.com/Zakariaeadadi" target="_blank"><img src="./assets/imges/logo-github.png" alt="Logo_LinkdeIn"></a>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="text-center">
+    <p>&copy; 2025 ADADI ZAKARIAE | Tous droits réservés</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="assets/Js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
